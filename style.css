@@ -1,3 +1,470 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    /* overflow: hidden; */
+}
 
+.menubar{
+    display:flex;
+    background-color: black;
+    color: white;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.logo{
+    width: 20%;
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.logo p a{
+    font-weight: 700;
+    margin: 0;
+    font-size: 55px;
+    text-decoration: none;
+    color: white;
+}
+nav{
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+    right: -5%;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li {
+    float: left;
+    padding: 10px;
+    
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+        
+}
+nav ul li a:hover{
+    color: #ed661f;
+  
+}
+nav ul li a:active{
+    color: white;
+    text-decoration: underline;
+}
+#login{
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 15px;
+    margin-right: 12px;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+#start{
+    color: white;
+    background-color: #ed661f;
+    border: none;
+    padding: 15px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-weight: 700;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+.container{
+    width: 100%;
+    height: 550px;
+    background-size: 100% 100%;
+    background-image: url(file:///home/moringa/AgriPlus/Assets/image%201.png);
+    background-repeat: no-repeat;
+    background-position: fixed;    
+}
+.buying{
+    margin: 150px 0 0 100px;
+}
+.buying h1{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+.buying p{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.buying button{
+    color: white;
+    background-color: #ed661f;
+    padding: 12px;
+    border: none;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.container img{
+    width: 45%;
+    position: relative;
+    left: 50%;
+    margin-top: -500px;
+}
+.innercontainer{
+    padding: 32px 24px 32px 24px;
+    font-size: 20px;
+    background-color: white;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 40%;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.container1{
+    margin-top: 160px;
+    margin-bottom: 70px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    left: 40%;
+}
+.container1content{
+    width: 40%;
+}
+.container1content p{
+    margin-top: 25px;
+}
+.container1img{
+    width: 60%;
+    float: inherit;
+}
+.container1img img{
+    width: 100%;
+}
+
+.container2{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container2 h2{
+    text-align: center;
+    margin-bottom: 6px;
+}
+.container2 p{
+    text-align: center;
+    margin-top: 15px;
+}
+.popular h2{
+    text-align: left;
+    margin-top: 20px;
+}
+.popular{
+    margin-top: 50px;
+}
+
+.grid{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.carrot{
+    width: 75%;
+    cursor: pointer;
+    padding: 14px;
+}
+.carrot img{
+    width:100%
+}
+.carrot p{
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.carrot a h4, h5 ,p{
+    color: black;
+}
+
+.cereal{
+    width: 75%;
+    cursor: pointer;
+    padding: 14px;
+}
+.cereal img{
+    width:100%
+}
+.cereal p{
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.cereal a h4, h5 ,p{
+    color: black;
+}
+
+.fish{
+    width: 75%;
+    cursor: pointer;
+    padding: 14px;
+}
+.fish img{
+    width:100%
+}
+.fish p{
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.fish a h4, h5 ,p{
+    color: black;
+}
+
+.kales{
+    width: 75%;
+    cursor: pointer;
+    padding: 14px;
+}
+.kales img{
+    width:100%
+}
+.kales p{
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.kales a h4, h5 ,p{
+    color: black;
+}
+
+.grid2{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.chicken{
+    width: 75%;
+    cursor: pointer;
+    padding: 14px;
+}
+.chicken img{
+    width:100%
+}
+.chicken p{
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.chicken a h4, h5 ,p{
+    color: black;
+}
+
+.ahero{
+    width: 75%;
+    cursor: pointer;
+    padding: 14px;
+}
+.ahero img{
+    width:100%
+}
+.ahero p{
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.ahero a h4, h5 ,p{
+    color: black;
+}
+
+.mursik{
+    width: 75%;
+    cursor: pointer;
+    padding: 14px;
+}
+.mursik img{
+    width:100%
+}
+.mursik p{
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.mursik a h4, h5 ,p{
+    color: black;
+}
+.tomatoes{
+    width: 75%;
+    cursor: pointer;
+    padding: 14px;
+}
+.tomatoes img{
+    width:100%
+}
+.tomatoes p{
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.tomatoes a h4, h5 ,p{
+    color: black;
+}
+/* ==end OF GRID: NEW */
+.seeall{
+    margin-left: 75%;
+    cursor: pointer;
+}
+.seeall p{
+    font-weight: 500;
+    font-size: 20px;
+}
+.seeall span{
+    position: relative;
+    right: -70%;
+    top: -90px;
+}
+
+.esteemed{
+    width: 100%;
+}
+.esteemed h3{
+    margin-left: 24px;
+}
+
+.esteemedcontainer{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.user{
+    width: 28%;
+    padding: 12px;
+    box-shadow: 1px 1px 4px 0px;
+    height: 250px auto;
+    
+}
+.stars{
+    display: flex;
+    width: 100%;
+}
+.stars img{
+    width: 20%;
+    margin-bottom: 36px;
+}
+.user h3{
+    text-align: left;
+    margin-left: 6px;
+}
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 24px;
+}
+.name img{
+    width: 25%;
+    margin-bottom: 12px;   
+}
+.read{
+    margin-left: 75%;
+    cursor: pointer;
+}
+.read p{
+    font-weight: 500;
+    font-size: 20px;
+}
+.read span{
+    position: relative;
+    right: -70%;
+    top: -90px;
+}
+
+.footercontainer{
+    width: 100%;    
+}
+.footer1{
+    height: 250px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer1 p{
+    color: white;
+    margin-top:12px;
+    margin-bottom: 30px;
+}
+#email{
+    background-color: white;
+    padding: 8px 30px;
+    border: none;
+}
+#sub{
+    padding:8px 24px;
+    background-color: #ed661f;
+    color: white;
+    margin-left: -6px;
+    border: none;
+}
+.footer2{
+    
+    width: 100% fixed;
+    background-color: black;
+    color: white;
+    padding-top: 58px;
+    padding-left: 58px;
+    padding-bottom: 58px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+#section1{
+    width: 35%;
+
+}
+#section1 p{
+    color: white;
+
+}
+.social img{
+    width: 8%;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-bottom: 10ox;
+}
+.apps{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.apps img{
+    width: 25%;
+    border-radius: 10px;
+    padding: 4px;
+}
+#section2{
+    width: 20%;
+}
+#section2 p a{
+    text-decoration: none;
+    color: white;
+    padding-top: 8px;
+}
+.copyright{
+    margin-top: -60px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
