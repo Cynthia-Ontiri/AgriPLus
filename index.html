@@ -5,219 +5,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <script src="https://kit.fontawesome.com/ab0b789e10.js" crossorigin="anonymous"></script>
     <title>AgriPlus</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- Navigation bar -->
-    <div class="navigation">
-        <header class="nav-bar">
-            <div class="nav">
-                <div class="logo">
-                    <h1>AgriPlus</h1>
-                </div>
-                <div class="nav-links">
-                    <ul>
-                        <li class="active"><a href="#Home">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Product</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="button">
-                    <button id="login-btn" class="btn">Login</button>
-                    <button class="btn">Get Started</button>
-                </div>
+    <header>
+        <div class="menubar">
+            <div class="logo">
+                <p> <a href="index.html">AgriPlus</a></p>
             </div>
-        </header>
-    </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                        <hr style="height:2px; width:100%; background-color:#ed661f; border-radius:4px; size:7%; margin-left: 0%; border: none;">
+                    </li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="navbuttons">
+                <button id="login">Login</button>
+                <button id="get started">Get Started</button>
+            </div>
+        </div>
+    </header>
+    <div class="Info">
+      <div class="Paragraph info">
+          <h1>Buying and selling quality <br> farm produce has never <br>been easier.</h1>
+          <p>AgriPlus is here to have you sorted, you can order farm <br> produce from farmers, harvesters, and
+              producers <br>directly.</p>
+          <button>Explore More</button>
+      </div>
+      <img src="/home/moringa/AgriPlus/Assets/image 2.png" alt="Vegetables">
 
-    <!-- Intro Section -->
-    <div class="background">
-        <div class="bgimg">
-            <div class="htext">
-                <div class="htext1">
-                    <h1>Buying and selling quality<br> farm produce has never<br>been easier.</h1>
-                    <p>AgriPlus is here to have you sorted, you can order farm <br>produce from the farmers, harvesters,
-                        and producers<br> directly.</p>
-                    <div class="hbtn">
-                        <button id="hbtn" class="btn">Explore More</button>
-                    </div>
-                </div>
-            </div>
-            <div class="desc-img">
-                <img src="./assets/images/image 2.png" alt="Foreground image" />
-            </div>
-        </div>
-        <div class="experience">
-            <div>
-                <h4>200+</h4>
-                <p>Verifiend Vendors</p>
-            </div>
-            <div>
-                <h4>105+</h4>
-                <p>Happy Customers</p>
-            </div>
-            <div>
-                <h4>2000+</h4>
-                <p>Nation Wide Customers</p>
-            </div>
-        </div>
-    </div>
-     <!-- Why we exist -->
-     <div class="why-we-exist">
-      <div class="why">
-          <div class="reason-text">
-              <h1>Why we exist.</h1>
-              <hr style="height:3px; width:18%; background-color:#ed661f; border-radius:4px;">
-              <p>We are built to make your work easier. Like any online <br> ecommerce, AgriPlus provide a great
-                  platform for <br> farmers to reach their customers throughout the <br>country. We have made it
-                  easier to shop from <br>anywhere through the platform</p>
+      <div class="info2">
+          <div id="info3">
+              <h5>200+</h5>
+              <h5>Verified Vendors</h5>
           </div>
-          <div class="exist-img">
-              <img src="./assets/images/image 3.png" alt="Why We Exist" />
+          <div id="info3">
+              <h5>105+</h5>
+              <h5>Happy Customers</h5>
+          </div>
+          <div id="info4">
+              <h5>2000+</h5>
+              <h5>Nation Wide Customers</h5>
           </div>
       </div>
   </div>
-
-  <!-- Product categories -->
-  <div class="categories">
-      <div class="cat-title">
-          <h2>Our Categories of Products</h2>
-          <hr style="height:3px; width:7%; background-color:#ed661f; border-radius:4px;margin: auto;">
-      </div>
-      <div class="cat-desc">
-          <p class="paragraph">We go beyond the borders to ensure you get fresh produce <br>from the farm. Our
-              customer satisfaction is our mission</p>
-      </div>
-      <!-- Most Popular -->
-      <div class="most-popular">
-          <h2>Most Popular</h2>
-          <hr style="height:3px; width:6%; background-color:#ed661f; border-radius:4px;">
-      </div>
-      <div class="pop-feature">
-          <div class="featured">
-              <div class="card">
-                  <div class="imageplace">
-                      <img src="./assets/images/Rectangle 5.png" alt="" />
-                  </div>
-                  <div class="detail">
-                      <div class="hdetail">
-                          <h3>Fresh Carrots</h3>
-                          <p id="ptag">Kinyanjui farmers Association</p>
-                          <h4>ksh. 200/kg</h4>
-                      </div>
-                  </div>
-              </div>
-              <div class="card">
-                  <div class="imageplace">
-                      <img src="./assets/images/image 4.png" alt="" />
-                  </div>
-                  <div class="detail">
-                      <div class="hdetail">
-                          <h3>Cereals</h3>
-                          <p>Kenya Cereals Board</p>
-                          <h4>ksh. 5000/bag</h4>
-                      </div>
-                  </div>
-              </div>
-              <div class="card">
-                  <div class="imageplace">
-                      <img src="./assets/images/image 5.png" alt="" />
-                  </div>
-                  <div class="detail">
-                      <div class="hdetail">
-                          <h3>Fresh Fish/Tilapia</h3>
-                          <p>Mr. Otieno</p>
-                          <h4>ksh. 500/kg</h4>
-                      </div>
-                  </div>
-              </div>
-              <div class="card">
-                  <div class="imageplace">
-                      <img src="./assets/images/image 6.png" alt="" />
-                  </div>
-                  <div class="detail">
-                      <div class="hdetail">
-                          <h3>Kales/Sukuma Wiki</h3>
-                          <p>Njoki's Farm</p>
-                          <h4>ksh. 50/bunch</h4>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <!-- <div class="see-all">
-              <br>
-              <button id="see-button" class="btn">See All</button>
-          </div> -->
-      </div>
-      <div class="newest-item">
-          <h2>Newest Item</h2>
-          <hr style="height:3px; width:6%; background-color:#ed661f; border-radius:4px;">
-      </div>
-      <div class="pop-feature">
-          <div class="featured">
-              <div class="card">
-                  <div class="imageplace">
-                      <img src="./assets/images/Rectangle 6.png" alt="" />
-                  </div>
-                  <div class="detail">
-                      <div class="hdetail">
-                          <h3>Chicken</h3>
-                          <p id="ptag">Wafula farm</p>
-                          <h4>ksh. 700</h4>
-                      </div>
-                  </div>
-              </div>
-              <div class="card">
-                  <div class="imageplace">
-                      <img src="./assets/images/Rectangle 7.png" alt="" />
-                  </div>
-                  <div class="detail">
-                      <div class="hdetail">
-                          <h3>Ahero/Ir Rice</h3>
-                          <p>Ahero Irrigation Board</p>
-                          <h4>ksh. 200/bag</h4>
-                      </div>
-                  </div>
-              </div>
-              <div class="card">
-                  <div class="imageplace">
-                      <img src="./assets/images/Rectangle 8.png" alt="" />
-                  </div>
-                  <div class="detail">
-                      <div class="hdetail">
-                          <h3>Mursik</h3>
-                          <p>Korir Dairy Farm</p>
-                          <h4>ksh. 200/kg</h4>
-                      </div>
-                  </div>
-              </div>
-              <div class="card">
-                  <div class="imageplace">
-                      <img src="./assets/images/Rectangle 9.png" alt="" />
-                  </div>
-                  <div class="detail">
-                      <div class="hdetail">
-                          <h3>Fresh Tomatoes</h3>
-                          <p>Tz Farmers Association</p>
-                          <h4>ksh. 5000/crate</h4>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-      <div class="see-all"> <br>
-          <p id="see">See All</p>
-          
-          <i class="fas fa-long-arrow-alt-right"></i>
-      </div>
-      <div class="horizontal">
-          <hr style="height:15px; width:100%; background-color:lightgray; size:7%; margin-top: -50px;">
-      </div>
-
-</body>
-
-</html>
