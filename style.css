@@ -3,7 +3,7 @@
 *{
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    /* overflow: hidden; */
+   
 }
 
 .menubar{
@@ -317,7 +317,7 @@ nav ul li a:active{
 .tomatoes a h4, h5 ,p{
     color: black;
 }
-/* ==end OF GRID: NEW */
+
 .seeall{
     margin-left: 75%;
     cursor: pointer;
