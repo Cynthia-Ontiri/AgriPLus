@@ -359,7 +359,7 @@ nav ul li a:active{
 .stars img{
     width: 20%;
     margin-bottom: 36px;
-    color:#ED661F
+    background-color:#ed661f
 }
 .user h3{
     text-align: left;
