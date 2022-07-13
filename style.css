@@ -317,7 +317,7 @@ nav ul li a:active{
 .tomatoes a h4, h5 ,p{
     color: black;
 }
-/* ==end OF GRID: NEW */
+/* NEWEST ITEMS */
 .seeall{
     margin-left: 75%;
     cursor: pointer;
@@ -359,6 +359,7 @@ nav ul li a:active{
 .stars img{
     width: 20%;
     margin-bottom: 36px;
+    color: #ed661f;
 }
 .user h3{
     text-align: left;
