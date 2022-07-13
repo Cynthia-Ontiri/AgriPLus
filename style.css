@@ -3,7 +3,7 @@
 *{
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    /* overflow: hidden; */
+   
 }
 
 .menubar{
@@ -317,7 +317,11 @@ nav ul li a:active{
 .tomatoes a h4, h5 ,p{
     color: black;
 }
+<<<<<<< HEAD
 /* NEWEST ITEMS */
+=======
+
+>>>>>>> 8369126c54ab74bda24d86e8a5a1092b1844637d
 .seeall{
     margin-left: 75%;
     cursor: pointer;
@@ -359,7 +363,11 @@ nav ul li a:active{
 .stars img{
     width: 20%;
     margin-bottom: 36px;
+<<<<<<< HEAD
     color: #ed661f;
+=======
+    color:#ed661f
+>>>>>>> 8369126c54ab74bda24d86e8a5a1092b1844637d
 }
 .user h3{
     text-align: left;
