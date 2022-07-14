@@ -17,6 +17,7 @@ An agriculture website landing page
 ### Requirements
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #### A gadget that can access the internet
 #### A stable internet connection
 
@@ -26,6 +27,8 @@ An agriculture website landing page
 =======
 =======
 >>>>>>> 8369126c54ab74bda24d86e8a5a1092b1844637d
+=======
+>>>>>>> 8369126c54ab74bda24d86e8a5a1092b1844637d
 ##### A gadget that can access the internet
 ##### A stable internet connection
 
@@ -33,6 +36,9 @@ An agriculture website landing page
 ##### Clone the repository
 ##### Upload the file to git
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8369126c54ab74bda24d86e8a5a1092b1844637d
+=======
 >>>>>>> 8369126c54ab74bda24d86e8a5a1092b1844637d
 =======
 >>>>>>> 8369126c54ab74bda24d86e8a5a1092b1844637d
@@ -42,8 +48,13 @@ An agriculture website landing page
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #### The project can be used to outline and showcase the different things learned in HTML and CSS.
 #### 
+=======
+##### The project can be used to outline and showcase the different things learned in HTML and CSS.
+##### It can also show the different flexbox properties and the hover style in css.
+>>>>>>> 8369126c54ab74bda24d86e8a5a1092b1844637d
 =======
 ##### The project can be used to outline and showcase the different things learned in HTML and CSS.
 ##### It can also show the different flexbox properties and the hover style in css.
@@ -61,7 +72,10 @@ Pull requests are welcome and please make sure to update tests as appropriate. T
 [MIT](https://choosealicense.com/licenses/mit/)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8369126c54ab74bda24d86e8a5a1092b1844637d
 =======
 >>>>>>> 8369126c54ab74bda24d86e8a5a1092b1844637d
 =======
